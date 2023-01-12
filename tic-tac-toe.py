@@ -119,4 +119,8 @@ while(rejouer == True):
     tourJoueur()
     query = input("Voulez vous rejouer ? (O/N) : ")
     if query == "N" or query == "n": 
-        rejouer == False 
+        rejouer = False 
+    else : 
+        tableau = {1:"1", 2:"2",3:"3",
+           4:"4", 5:"5",6:"6",
+           7:"7", 8:"8",9:"9"}
